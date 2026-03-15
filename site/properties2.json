@@ -1,0 +1,414 @@
+[
+  {
+    "owner": "1",
+    "name": "Apartamento Central Park",
+    "type": "Apartment",
+    "description": "Lindo apartamento localizado no centro da cidade, próximo a parques e comércio. Possui 2 quartos, cozinha completa e banheiro. Disponível para aluguel semanal ou mensal.",
+    "location": {
+      "street": "Av. Paulista, 1000",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipcode": "01310-100"
+    },
+    "beds": 2,
+    "baths": 1,
+    "square_feet": 1500,
+    "amenities": [
+      "Wifi",
+      "Cozinha completa",
+      "Lavanderia",
+      "Estacionamento gratuito",
+      "Hidromassagem",
+      "Segurança 24h",
+      "Acessível para cadeirantes",
+      "Acesso por elevador",
+      "Lava-louças",
+      "Academia",
+      "Ar-condicionado",
+      "Varanda",
+      "Smart TV",
+      "Cafeteira"
+    ],
+    "rates": {
+      "weekly": 1100,
+      "monthly": 4200
+    },
+    "seller_info": {
+      "name": "[Nome do Corretor]",
+      "email": "contato@email.com.br",
+      "phone": "(11) 99999-9999"
+    },
+    "images": [
+      "a1.jpg",
+      "a2.jpg",
+      "a3.jpg"
+    ],
+    "is_featured": false,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "owner": "1",
+    "name": "Loft Aconchegante no Centro",
+    "type": "Apartment",
+    "description": "Loft aconchegante no coração da cidade com vista privilegiada para os principais pontos turísticos.",
+    "location": {
+      "street": "Rua das Flores, 45",
+      "city": "Curitiba",
+      "state": "PR",
+      "zipcode": "80010-000"
+    },
+    "beds": 1,
+    "baths": 1,
+    "square_feet": 1800,
+    "amenities": [
+      "Wifi",
+      "Cozinha completa",
+      "Lavanderia",
+      "Estacionamento gratuito",
+      "Hidromassagem",
+      "Segurança 24h",
+      "Acessível para cadeirantes",
+      "Acesso por elevador",
+      "Lava-louças",
+      "Internet de alta velocidade",
+      "Ar-condicionado",
+      "Smart TV",
+      "Churrasqueira"
+    ],
+    "rates": {
+      "weekly": 1000,
+      "monthly": 4000
+    },
+    "seller_info": {
+      "name": "[Nome do Corretor]",
+      "email": "contato@email.com.br",
+      "phone": "(41) 99999-9999"
+    },
+    "images": [
+      "b1.jpg",
+      "b2.jpg",
+      "b3.jpg"
+    ],
+    "is_featured": false,
+    "createdAt": "2024-01-02T00:00:00.000Z",
+    "updatedAt": "2024-01-02T00:00:00.000Z"
+  },
+  {
+    "owner": "2",
+    "name": "Cobertura com Vista Panorâmica",
+    "type": "Condo",
+    "description": "Experimente o luxo nesta deslumbrante cobertura com vista panorâmica para toda a cidade.",
+    "location": {
+      "street": "Av. Beira Mar, 500",
+      "city": "Florianópolis",
+      "state": "SC",
+      "zipcode": "88010-000"
+    },
+    "beds": 3,
+    "baths": 2,
+    "square_feet": 2200,
+    "amenities": [
+      "Wifi",
+      "Cozinha completa",
+      "Lavanderia",
+      "Estacionamento gratuito",
+      "Hidromassagem",
+      "Segurança 24h",
+      "Acessível para cadeirantes",
+      "Acesso por elevador",
+      "Lava-louças",
+      "Piscina",
+      "Academia",
+      "Ar-condicionado",
+      "Smart TV",
+      "Cafeteira"
+    ],
+    "rates": {
+      "nightly": 200,
+      "weekly": 750,
+      "monthly": 3300
+    },
+    "seller_info": {
+      "name": "[Nome do Corretor]",
+      "email": "contato@email.com.br",
+      "phone": "(48) 99999-9999"
+    },
+    "images": [
+      "c1.jpg",
+      "c2.jpg",
+      "c3.jpg"
+    ],
+    "is_featured": false,
+    "createdAt": "2024-01-03T00:00:00.000Z",
+    "updatedAt": "2024-01-03T00:00:00.000Z"
+  },
+  {
+    "owner": "2",
+    "name": "Chalé Charmoso na Serra",
+    "type": "Cottage Or Cabin",
+    "description": "Fuja da rotina neste charmoso chalé na serra, perfeito para um retiro tranquilo em meio à natureza.",
+    "location": {
+      "street": "Estrada da Serra, 123",
+      "city": "Gramado",
+      "state": "RS",
+      "zipcode": "95670-000"
+    },
+    "beds": 1,
+    "baths": 1,
+    "square_feet": 900,
+    "amenities": [
+      "Lareira",
+      "Churrasqueira",
+      "Varanda",
+      "Cafeteira"
+    ],
+    "rates": {
+      "weekly": 2000
+    },
+    "seller_info": {
+      "name": "[Nome do Corretor]",
+      "email": "contato@email.com.br",
+      "phone": "(54) 99999-9999"
+    },
+    "images": [
+      "d1.jpg",
+      "d2.jpg",
+      "d3.jpg"
+    ],
+    "is_featured": false,
+    "createdAt": "2024-01-04T00:00:00.000Z",
+    "updatedAt": "2024-01-04T00:00:00.000Z"
+  },
+  {
+    "owner": "3",
+    "name": "Studio Moderno no Centro",
+    "type": "Studio",
+    "description": "Hospede-se com estilo neste moderno studio no coração da cidade, próximo a tudo.",
+    "location": {
+      "street": "Rua Urbana, 75",
+      "city": "Belo Horizonte",
+      "state": "MG",
+      "zipcode": "30130-000"
+    },
+    "beds": 1,
+    "baths": 1,
+    "square_feet": 900,
+    "amenities": [
+      "Internet de alta velocidade",
+      "Smart TV",
+      "Ar-condicionado",
+      "Academia",
+      "Churrasqueira"
+    ],
+    "rates": {
+      "weekly": 1100,
+      "monthly": 4200
+    },
+    "seller_info": {
+      "name": "[Nome do Corretor]",
+      "email": "contato@email.com.br",
+      "phone": "(31) 99999-9999"
+    },
+    "images": [
+      "e1.jpg",
+      "e2.jpg",
+      "e3.jpg"
+    ],
+    "is_featured": true,
+    "createdAt": "2024-01-05T00:00:00.000Z",
+    "updatedAt": "2024-01-05T00:00:00.000Z"
+  },
+  {
+    "owner": "3",
+    "name": "Refúgio à Beira-Mar",
+    "type": "House",
+    "description": "Desfrute de dias relaxantes nesta casa à beira-mar com acesso direto à praia.",
+    "location": {
+      "street": "Av. Atlântica, 456",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "zipcode": "22010-000"
+    },
+    "beds": 4,
+    "baths": 3,
+    "square_feet": 2800,
+    "amenities": [
+      "Acesso à praia",
+      "Piscina",
+      "Varanda",
+      "Smart TV",
+      "Churrasqueira"
+    ],
+    "rates": {
+      "nightly": 500,
+      "weekly": 2500
+    },
+    "seller_info": {
+      "name": "[Nome do Corretor]",
+      "email": "contato@email.com.br",
+      "phone": "(21) 99999-9999"
+    },
+    "images": [
+      "f1.jpg",
+      "f2.jpg",
+      "f3.jpg"
+    ],
+    "is_featured": true,
+    "createdAt": "2024-01-06T00:00:00.000Z",
+    "updatedAt": "2024-01-06T00:00:00.000Z"
+  },
+  {
+    "owner": "4",
+    "name": "Cabana Rústica na Mata",
+    "type": "Cottage Or Cabin",
+    "description": "Conecte-se com a natureza nesta aconchegante cabana rústica no meio da mata.",
+    "location": {
+      "street": "Estrada da Floresta, 789",
+      "city": "Campos do Jordão",
+      "state": "SP",
+      "zipcode": "12460-000"
+    },
+    "beds": 2,
+    "baths": 1,
+    "square_feet": 1100,
+    "amenities": [
+      "Lareira",
+      "Churrasqueira",
+      "Trilhas ecológicas",
+      "Aceita animais de estimação"
+    ],
+    "rates": {
+      "nightly": 475,
+      "weekly": 2000
+    },
+    "seller_info": {
+      "name": "[Nome do Corretor]",
+      "email": "contato@email.com.br",
+      "phone": "(12) 99999-9999"
+    },
+    "images": [
+      "g1.jpg",
+      "g2.jpg",
+      "g3.jpg"
+    ],
+    "is_featured": false,
+    "createdAt": "2024-01-07T00:00:00.000Z",
+    "updatedAt": "2024-01-07T00:00:00.000Z"
+  },
+  {
+    "owner": "5",
+    "name": "Chalé na Montanha",
+    "type": "Chalet",
+    "description": "Aproveite a paisagem serrana neste confortável chalé com lareira e vista para as montanhas.",
+    "location": {
+      "street": "Rua das Montanhas, 321",
+      "city": "Petrópolis",
+      "state": "RJ",
+      "zipcode": "25610-000"
+    },
+    "beds": 3,
+    "baths": 2,
+    "square_feet": 1800,
+    "amenities": [
+      "Lareira",
+      "Varanda",
+      "Smart TV",
+      "Café da manhã incluso"
+    ],
+    "rates": {
+      "nightly": 300,
+      "weekly": 1100
+    },
+    "seller_info": {
+      "name": "[Nome do Corretor]",
+      "email": "contato@email.com.br",
+      "phone": "(24) 99999-9999"
+    },
+    "images": [
+      "h1.jpg",
+      "h2.jpg",
+      "h3.jpg"
+    ],
+    "is_featured": false,
+    "createdAt": "2024-01-08T00:00:00.000Z",
+    "updatedAt": "2024-01-08T00:00:00.000Z"
+  },
+  {
+    "owner": "6",
+    "name": "Casa com Vista para o Vale",
+    "type": "House",
+    "description": "Aprecie vistas deslumbrantes do vale nesta espaçosa casa cercada pela natureza.",
+    "location": {
+      "street": "Estrada do Mirante, 600",
+      "city": "Nova Friburgo",
+      "state": "RJ",
+      "zipcode": "28610-000"
+    },
+    "beds": 4,
+    "baths": 3,
+    "square_feet": 2400,
+    "amenities": [
+      "Vista para o vale",
+      "Trilhas ecológicas",
+      "Ar-condicionado",
+      "Smart TV",
+      "Churrasqueira"
+    ],
+    "rates": {
+      "weekly": 1000,
+      "monthly": 3800
+    },
+    "seller_info": {
+      "name": "[Nome do Corretor]",
+      "email": "contato@email.com.br",
+      "phone": "(22) 99999-9999"
+    },
+    "images": [
+      "i1.jpg",
+      "i2.jpg",
+      "i3.jpg"
+    ],
+    "is_featured": false,
+    "createdAt": "2024-01-09T00:00:00.000Z",
+    "updatedAt": "2024-01-09T00:00:00.000Z"
+  },
+  {
+    "owner": "7",
+    "name": "Loft Histórico no Centro",
+    "type": "Apartment",
+    "description": "Viaje no tempo hospedando-se neste charmoso loft localizado em um edifício histórico no centro da cidade.",
+    "location": {
+      "street": "Rua Histórica, 123",
+      "city": "Ouro Preto",
+      "state": "MG",
+      "zipcode": "35400-000"
+    },
+    "beds": 2,
+    "baths": 1,
+    "square_feet": 1200,
+    "amenities": [
+      "Internet de alta velocidade",
+      "Ar-condicionado",
+      "Smart TV",
+      "Cafeteira"
+    ],
+    "rates": {
+      "weekly": 550,
+      "monthly": 2100
+    },
+    "seller_info": {
+      "name": "[Nome do Corretor]",
+      "email": "contato@email.com.br",
+      "phone": "(31) 99999-9999"
+    },
+    "images": [
+      "j1.jpg",
+      "j2.jpg",
+      "j3.jpg"
+    ],
+    "is_featured": false,
+    "createdAt": "2024-01-10T00:00:00.000Z",
+    "updatedAt": "2024-01-10T00:00:00.000Z"
+  }
+]
