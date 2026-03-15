@@ -1,117 +1,127 @@
-# Template Imobiliária
+# 🏠 Imobiliária — Template Next.js
 
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)
+![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green?style=for-the-badge&logo=mongodb)
+![Tailwind](https://img.shields.io/badge/Tailwind-CSS-blue?style=for-the-badge&logo=tailwindcss)
+![NextAuth](https://img.shields.io/badge/NextAuth-4-purple?style=for-the-badge)
+![License](https://img.shields.io/badge/Licença-MIT-yellow?style=for-the-badge)
 
-> Template público em português do Brasil para imobiliárias, feito com Next.js, MongoDB e UI moderna. Ideal para startups, corretores e plataformas de anúncios de imóveis.
-
----
-
-## 🔥 Preview
-
-> 📌 Certifique-se de adicionar a imagem de captura de tela em `public/images/screen.jpg` para que ela apareça abaixo.
-
-![Screenshot da Home](public/images/screen.jpg)
+> Template completo de site imobiliário em **português do Brasil**, desenvolvido com Next.js 14, MongoDB e Tailwind CSS.
 
 ---
 
-## ✨ Funcionalidades principais
+## 📸 Preview
 
-- ✅ Autenticação via Google (NextAuth)
-- 🛡️ Proteção de rotas e autorização baseada em usuário
-- 🏠 CRUD completo de imóveis com upload de múltiplas fotos (Cloudinary)
-- 🔍 Busca por localização, tipo de imóvel e filtros avançados
-- 💬 Sistema de mensagens internas com contagem de não lidas
-- 📌 Favoritos / imóveis salvos
-- 🗺️ Mapa interativo com geolocalização (Mapbox)
-- 🖼️ Galeria de fotos com lightbox (PhotoSwipe)
-- 📩 Compartilhamento em redes sociais
-- ⚡ UI responsiva com Tailwind + spinners e notificações (Toast)
-- 📄 Páginas de perfil, anúncios, mensagens e edição de imóvel
+![Screenshot da Home](public/images/screen.png)
 
 ---
 
-## 🧩 Tecnologias utilizadas
+## ✨ Funcionalidades
 
-- [Next.js](https://nextjs.org/)
-- [React](https://reactjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [MongoDB](https://www.mongodb.com/) + [Mongoose](https://mongoosejs.com/)
-- [NextAuth.js](https://next-auth.js.org/)
-- [Cloudinary](https://cloudinary.com/)
-- [Mapbox](https://www.mapbox.com/)
-- [PhotoSwipe](https://photoswipe.com/)
-- [React Toastify](https://fkhadra.github.io/react-toastify/)
-- [React Share](https://github.com/nygardk/react-share)
-- [React Icons](https://react-icons.github.io/react-icons/)
+- 🔐 Autenticação via Google (NextAuth.js)
+- 🏘️ Listagem, busca e filtro de imóveis
+- ➕ Cadastro e edição de imóveis (CRUD completo)
+- 🖼️ Upload de múltiplas imagens (Cloudinary)
+- 🗺️ Mapa interativo por endereço (Mapbox)
+- 💬 Sistema de mensagens internas
+- 🔔 Notificações de mensagens não lidas
+- 🔖 Salvar imóveis nos favoritos
+- 📤 Compartilhar imóveis nas redes sociais
+- 📱 Design responsivo (mobile-first)
+- ⚡ Next.js Server Actions
+- 🇧🇷 100% em Português do Brasil
 
 ---
 
-## 🛠️ Como rodar localmente
+## 🛠️ Tecnologias
+
+| Tecnologia | Uso |
+|---|---|
+| [Next.js 14](https://nextjs.org/) | Framework React |
+| [MongoDB Atlas](https://www.mongodb.com/) | Banco de dados |
+| [Mongoose](https://mongoosejs.com/) | ODM do MongoDB |
+| [NextAuth.js](https://next-auth.js.org/) | Autenticação |
+| [Tailwind CSS](https://tailwindcss.com/) | Estilização |
+| [Cloudinary](https://cloudinary.com/) | Upload de imagens |
+| [Mapbox](https://www.mapbox.com/) | Mapas interativos |
+| [React Toastify](https://fkhadra.github.io/react-toastify/) | Notificações |
+| [PhotoSwipe](https://photoswipe.com/) | Galeria de imagens |
+| [React Share](https://github.com/nygardk/react-share) | Compartilhamento social |
+
+---
+
+## 🚀 Como rodar localmente
 
 ### Pré-requisitos
 
-- Node.js 18+ (recomendado)
-- Conta no MongoDB Atlas (ou MongoDB local)
-- Conta no Cloudinary
-- Projeto configurado no Google Cloud (OAuth)
-- Conta no Mapbox
+- Node.js 18+
+- Conta no [MongoDB Atlas](https://www.mongodb.com/)
+- Conta no [Cloudinary](https://cloudinary.com/)
+- Conta no [Google Cloud Console](https://console.cloud.google.com/) (OAuth)
+- Conta no [Mapbox](https://www.mapbox.com/)
 
-### Passos
-
-1. Clone este repositório:
+### Instalação
 
 ```bash
-git clone <URL_DO_REPO>
-cd <PASTA_DO_PROJETO>
-```
+# Clone o repositório
+git clone https://github.com/seu-usuario/site-imobiliaria.git
 
-2. Instale as dependências:
+# Entre na pasta
+cd site-imobiliaria
 
-```bash
+# Instale as dependências
 npm install
 ```
 
-3. Crie o arquivo de ambiente:
+### Variáveis de ambiente
 
-```bash
-cp .env.example .env.local
+Renomeie `.env.example` para `.env.local` e preencha:
+
+```env
+NEXT_PUBLIC_DOMAIN=http://localhost:3000
+MONGODB_URI=mongodb+srv://usuario:senha@cluster.mongodb.net/imobiliaria
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET=sua-chave-secreta
+GOOGLE_CLIENT_ID=seu-google-client-id
+GOOGLE_CLIENT_SECRET=seu-google-client-secret
+CLOUDINARY_CLOUD_NAME=seu-cloud-name
+CLOUDINARY_API_KEY=sua-api-key
+CLOUDINARY_API_SECRET=seu-api-secret
+NEXT_PUBLIC_MAPBOX_TOKEN=seu-token-mapbox
+NEXT_PUBLIC_GOOGLE_GEOCODING_API_KEY=sua-chave-geocoding
 ```
 
-4. Preencha as variáveis em `.env.local` (MongoDB, Google OAuth, Cloudinary, Mapbox, etc.)
-
-5. Rode em modo de desenvolvimento:
+### Rodar
 
 ```bash
 npm run dev
 ```
 
-6. Acesse em:
-
-```
-http://localhost:3000
-```
+Acesse [http://localhost:3000](http://localhost:3000) 🎉
 
 ---
 
-## 📁 Estrutura de pastas (resumida)
+## 📁 Estrutura do Projeto
 
 ```
-/
-├─ app/                    # Páginas e rotas (Next.js App Router)
-├─ components/             # Componentes reutilizáveis
-├─ config/                 # Configurações (DB, Cloudinary, etc.)
-├─ context/                # React context / global state
-├─ models/                 # Schemas Mongoose
-├─ public/                 # Imagens estáticas / assets públicos
-├─ utils/                  # Helpers e utilitários
-├─ .env.local              # Variáveis de ambiente (não comitado)
-├─ next.config.mjs         # Configuração Next.js
-├─ package.json
-└─ README.md
+├── app/
+│   ├── actions/          # Server Actions
+│   ├── api/auth/         # Rota NextAuth
+│   ├── messages/         # Página de mensagens
+│   ├── profile/          # Página de perfil
+│   └── properties/       # Páginas de imóveis
+├── components/           # Componentes React
+├── config/               # Configurações (DB, Cloudinary)
+├── context/              # Contexto global
+├── models/               # Modelos Mongoose
+├── utils/                # Utilitários
+└── public/               # Arquivos estáticos
 ```
 
 ---
 
 ## 📄 Licença
 
-Este projeto está licenciado sob a licença **MIT**.
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
+
+---
