@@ -10,9 +10,9 @@ const Footer = () => {
       <div className='container mx-auto flex flex-col md:flex-row justify-between items-center px-4'>
         {/* Logo e copyright */}
         <div className='mb-4 md:mb-0'>
-          <span className='text-lg font-bold'>[Nome da Imobiliária]</span>
+          <span className='text-lg font-bold'>Template Imobiliária</span>
           <span className='text-sm ml-2'>
-            &copy; {currentYear} [Nome da Imobiliária]. Todos os direitos reservados.
+            &copy; {currentYear} Template Imobiliária. Todos os direitos reservados.
           </span>
         </div>
 

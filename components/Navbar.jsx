@@ -53,10 +53,7 @@ const Navbar = () => {
           <div className='flex flex-1 items-center justify-center md:items-stretch md:justify-start'>
             <Link className='flex flex-shrink-0 items-center' href='/'>
               <span className='hidden md:block text-white text-2xl font-bold ml-2'>
-                [Nome da Imobiliária]
-              </span>
-            </Link>
-
+                    Template Imobiliária
             {/* Links de navegação — desktop */}
             <div className='hidden md:ml-6 md:block'>
               <div className='flex space-x-2'>

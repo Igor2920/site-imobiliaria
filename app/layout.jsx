@@ -9,7 +9,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 // Metadados padrão da aplicação — altere para as informações da sua imobiliária
 export const metadata = {
-  title: '[Nome da Imobiliária]',
+  title: 'Template Imobiliária',
   description: 'Encontre o imóvel ideal para alugar ou comprar.',
   keywords: 'imóveis, aluguel, venda, apartamento, casa, imobiliária',
 };

@@ -1,4 +1,4 @@
-# [Nome da Imobiliária]
+# Template Imobiliária
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 
@@ -7,6 +7,8 @@
 ---
 
 ## 🔥 Preview
+
+> 📌 Certifique-se de adicionar a imagem de captura de tela em `public/images/screen.jpg` para que ela apareça abaixo.
 
 ![Screenshot da Home](public/images/screen.jpg)
 
