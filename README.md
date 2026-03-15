@@ -91,6 +91,17 @@ NEXT_PUBLIC_MAPBOX_TOKEN=seu-token-mapbox
 NEXT_PUBLIC_GOOGLE_GEOCODING_API_KEY=sua-chave-geocoding
 ```
 
+### 🧠 O que cada variável faz
+
+- `NEXT_PUBLIC_DOMAIN`: URL base do site (usada em redirecionamentos e geração de links).
+- `MONGODB_URI`: string de conexão com o MongoDB (dados de imóveis, usuários, mensagens, favoritos).
+- `NEXTAUTH_URL`: URL usada pelo NextAuth para callbacks de login.
+- `NEXTAUTH_SECRET`: chave secreta para assinaturas de token do NextAuth.
+- `GOOGLE_CLIENT_ID` / `GOOGLE_CLIENT_SECRET`: credenciais para login com Google.
+- `CLOUDINARY_*`: configurações para enviar imagens dos imóveis ao Cloudinary.
+- `NEXT_PUBLIC_MAPBOX_TOKEN`: token para usar o mapa (exibição de localização do imóvel).
+- `NEXT_PUBLIC_GOOGLE_GEOCODING_API_KEY`: chave para converter endereços em coordenadas (geocoding).
+
 ### Rodar
 
 ```bash
